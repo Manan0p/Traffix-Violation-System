@@ -1,0 +1,8 @@
+traffic-violation-detection/
+│
+├── app.py               # Backend (Python)
+├── static/              # Static files (CSS, JS)
+│   └── style.css
+├── templates/           # HTML files
+│   └── index.html
+└── violations.csv       # Violations log
