@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Violation Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <h1>🚦 Live Traffic Violation Detection</h1>
+    </div>
+    <div class="container">
+        <div class="video-feed">
+            <img src="{{ url_for('video_feed') }}" alt="Live Video Feed">
+        </div>
+        <div class="violations">
+            <h2>🚨 Violations</h2>
+            <div class="violations-list-container">
+                <ul id="violations-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Fetch violations from the backend
+        async function fetchViolations() {
+            const response = await fetch('/violations');
+            const data = await response.json();
+            const violationsList = document.getElementById('violations-list');
+            violationsList.innerHTML = data.map(v => `<li>${v[0]} at ${v[1]}</li>`).join('');
+        }
+
+        // Update violations every 5 seconds
+        setInterval(fetchViolations, 5000);
+    </script>
+</body>
+</html>
