@@ -18,12 +18,12 @@ Admin dashboard for reporting and analytics
 
 🛠️ Tech Stack
 
-Frontend: HTML, CSS, JavaScript (or React/Vue/Angular if applicable)
+Frontend: HTML, CSS, JavaScript
 
-Backend: Node.js / Express (or Django / Laravel / Spring Boot)
+Backend: Node.js / Express
 
 Database: MySQL / PostgreSQL / MongoDB
 
-Payment Integration: Stripe / Razorpay / PayPal (optional)
+Payment Integration: Stripe / Razorpay / PayPal
 
 Authentication: JWT / OAuth2 / Session-based auth# Traffix-Violation-System
