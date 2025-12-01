@@ -106,16 +106,16 @@ Traffix-Violation-System
 git clone https://github.com/Manan0p/Traffix-Violation-System.git
 ```
 
-### 1️⃣ Navigate to Project Directory
+### 2️⃣ Navigate to Project Directory
 ```bash
 cd Traffix-Violation-System
 ```
 
-### 1️⃣ Install Dependenciea
+### 3️⃣ Install Dependenciea
 ```bash
 npm install
 ```
 
-### 1️⃣ Run the flask webapp
+### 4️⃣ Run the flask webapp
 ```bash
 python app.py
