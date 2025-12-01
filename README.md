@@ -76,26 +76,26 @@ Traffic violations are often managed manually, leading to inefficiencies, lack o
 
 ## 📂 Project Structure
 
-Traffix-Violation-System
-│
-├── frontend/
-│   ├── assets/
-│   ├── styles/
-│   └── scripts/
-│
-├── backend/
-│   ├── routes/
+Traffix-Violation-System<br>
+│<br>
+├── frontend/<br>
+│   ├── assets/<br>
+│   ├── styles/<br>
+│   └── scripts/<br>
+│<br>
+├── backend/<br>
+│   ├── routes/<br>
 
-│   ├── controllers/
-│   ├── models/
-│   └── middleware/
-│
-├── database/
-│   └── schemas/
-│
-├── .env
-├── package.json
-└── README.md
+│   ├── controllers/<br>
+│   ├── models/<br>
+│   └── middleware/<br>
+│<br>
+├── database/<br>
+│   └── schemas/<br>
+│<br>
+├── .env<br>
+├── package.json<br>
+└── README.md<br>
 
 ---
 
